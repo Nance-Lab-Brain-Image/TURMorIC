@@ -1,9 +1,10 @@
 # import module or package here
-import unittest
+import pytest
 import random
 import os
+import turmoric
 
-class TestAdaptiveThresholding(unittest.TestCase):
+class TestAdaptiveThresholding():
 
     def test_thresholding_creates_folder(self):
         test = 0
@@ -16,7 +17,3 @@ class TestAdaptiveThresholding(unittest.TestCase):
 
     def test_thresholding_Mean(self):
         test = 0
-
-
-if __name__ == '__main__':
-    unittest.main()
