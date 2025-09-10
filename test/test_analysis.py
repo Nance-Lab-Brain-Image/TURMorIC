@@ -1,9 +1,10 @@
 # import module or package here
-import unittest
+import pytest
 import random
 import os
+import turmoric
 
-class TestAnalysis(unittest.TestCase):
+class TestAnalysis():
 
     def test_pca_bdreg(self):
         test = 0
@@ -13,7 +14,3 @@ class TestAnalysis(unittest.TestCase):
 
     def test_clusterSM(self):
         test = 0
-
-
-if __name__ == '__main__':
-    unittest.main()
